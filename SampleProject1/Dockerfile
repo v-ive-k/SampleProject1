@@ -11,4 +11,4 @@ COPY /var/lib/jenkins/workspace/secondproject/SampleProject1/src/main/java/com/e
 RUN mvn clean package
 
 # 5. Run the compiled App class
-CMD ["java", "App"]
+CMD ["java", "-jar", "myproject.jar"]
