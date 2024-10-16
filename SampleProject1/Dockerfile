@@ -5,10 +5,10 @@ FROM openjdk:17-alpine
 WORKDIR /app
 
 # 3. Copy the HelloWorld.java file from your local machine into the container at /app
-COPY src\main\java\com\example\HelloWorld .
+COPY src\main\java\com\example\App .
 
 # 4. Compile the HelloWorld.java file
-RUN javac HelloWorld
+RUN javac App
 
 # 5. Run the compiled HelloWorld class
-CMD ["java", "HelloWorld"]
+CMD ["java", "App"]
