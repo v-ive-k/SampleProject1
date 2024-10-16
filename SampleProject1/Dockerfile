@@ -5,7 +5,7 @@ FROM openjdk:17-alpine
 WORKDIR /app
 
 # 3. Copy the HelloWorld.java file from your local machine into the container at /app
-COPY src/main/java/com/example/HelloWorld .
+COPY /var/lib/jenkins/workspace/secondproject/SampleProject1/src/main/java/com/example/HelloWorld .
 
 # 4. Compile the App.java file
 RUN mvn clean package
