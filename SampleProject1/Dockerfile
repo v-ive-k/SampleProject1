@@ -7,10 +7,10 @@ WORKDIR /app
 # 3. Copy the HelloWorld.java file from your local machine into the container at /app
 
 CMD cd src\main\java\com\example\
-COPY App .
+COPY App.java .
 
 # 4. Compile the HelloWorld.java file
-RUN javac App
+RUN javac App.java
 
 # 5. Run the compiled HelloWorld class
 CMD ["java", "App"]
