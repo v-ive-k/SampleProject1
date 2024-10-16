@@ -8,7 +8,11 @@ WORKDIR /app
 COPY src\main\java\com\example\App .
 
 # 4. Compile the HelloWorld.java file
+<<<<<<< HEAD
 RUN javac App
+=======
+RUN mvn clean package -DskipTests
+>>>>>>> 69940bc275dbd837c7c2dcd449cecaf7893e0ead
 
 # 5. Run the compiled HelloWorld class
 CMD ["java", "App"]
