@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\vivek\AppData\Local\Temp\surefire13553103976180591074\surefirebooter-20241015001746469_3.jar C:\Users\vivek\AppData\Local\Temp\surefire13553103976180591074 2024-10-15T00-17-46_297-jvmRun1 surefire-20241015001746469_1tmp surefire_0-20241015001746469_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\vivek\AppData\Local\Temp\surefire16542150721869367006\surefirebooter-20241016001200916_3.jar C:\Users\vivek\AppData\Local\Temp\surefire16542150721869367006 2024-10-16T00-12-00_681-jvmRun1 surefire-20241016001200916_1tmp surefire_0-20241016001200916_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Projects\SampleProject1\target\test-classes;D:\Projects\SampleProject1\target\classes;C:\Users\vivek\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\vivek\AppData\Local\Temp\surefire13553103976180591074\surefirebooter-20241015001746469_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\vivek\AppData\Local\Temp\surefire16542150721869367006\surefirebooter-20241016001200916_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
